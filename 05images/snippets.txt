@@ -1,0 +1,39 @@
+<figure>
+        <img src="uapphotos/calvine.jpg" alt="Calvine" width="300" height="300" loading="lazy">
+        <figcaption>Calvine</figcaption>
+ </figure>
+            
+<figure>
+        <img src="uapphotos/gimbal.jpg" alt="Gimbal" width="300" height="180" loading="lazy">
+        <figcaption>Gimbal</figcaption>
+</figure>
+            
+<figure>
+        <img src="uapphotos/gofast.jpg" alt="Go Fast" width="300" height="169" loading="lazy">
+        <figcaption>Go Fast</figcaption>
+        </figure>
+
+<figure>
+        <img src="uapphotos/japan.jpg" alt="Japan" width="300" height="204" loading="lazy">
+        <figcaption>Japan</figcaption>
+</figure>
+
+<figure>
+        <img src="uapphotos/jellyfish.jpg" alt="Jellyfish" width="300" height="168" loading="lazy">
+        <figcaption>Jellyfish</figcaption>
+</figure>
+
+<figure>
+        <img src="uapphotos/minnvile.jpg" alt="McMinnville" width="300" height="214" loading="lazy">
+        <figcaption>McMinnville</figcaption>
+</figure>
+
+<figure>
+        <img src="uapphotos/phoenixlights" alt="Phoenix Lights" width="300" height="169" loading="lazy">
+        <figcaption>Phoenix Lights</figcaption>
+</figure>
+
+<figure>
+        <img src="uapphotos/mosulorb.jpg" alt="Mosul Orb" width="300" height="169" loading="lazy">
+        <figcaption>Mosul Orb</figcaption>
+</figure>
