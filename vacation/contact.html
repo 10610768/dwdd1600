@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        <title>Contact</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8"> 
+        <meta name="description" content="Contact Us by mail, phone, email">
+        <meta name="author" content="Zachary Wunduke">    
+        
+        <link rel="stylesheet" href="vacation.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    
+    <body>
+        <!-- Within Page Destination (Top of the Page) -->
+        <div id="top-of-page"></div>
+        
+        <!-- Start of the page header -->
+        <header>
+            <img src="images/logo.png" alt="site logo" width="100" height="72">
+            <div>
+                <h1>Cloud Nine Travel</h1>
+                <p><strong>Your Vacation Starts Here</strong></p>
+            </div>
+        </header>
+        
+        <!-- Start of the page navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Welcome</a></li>
+                <li><a href="gallery.html">Destinations</a></li>
+                <li><a href="videos.html">Video Tours</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Start of the page content -->
+        <main>
+            <h1 class="contactheader">Request More Information</h1>
+        
+            <p>Request a brochure for our travel destinations, request an agent and one of our customer service representatives will call you back at a scheduled time, or simply leave us a comment with any concern you have.</p><br>
+        
+            <form method="get" class="conForm" action="thanks.html">
+                <fieldset>
+                    <legend>Tell Us About Yourself</legend>
+                    <label for="firstname">First Name *</label>
+                    <input type="text" id="firstname" name="firstname" required>
+
+                    <label for="lastname">Last Name *</label>
+                    <input type="text" id="lastname" name="lastname" required>
+
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+                </fieldset>
+            
+                <fieldset>
+                    <legend>What Can We Assist You With?</legend>
+                
+                    <label><input type="radio" name="brochure" value="chosen">Request a brochure</label>
+                    <label class="checkboxbrochure"><input type="checkbox" name="corfu" value="chosen">Corfu, Greece</label>
+                    <label class="checkboxbrochure"><input type="checkbox" name="islamorada" value="chosen">Islamorada, Florida</label>
+                    <label class="checkboxbrochure"><input type="checkbox" name="myrtle" value="chosen">Myrtle Beach, South Carolina</label>
+                    <label class="checkboxbrochure"><input type="checkbox" name="palawan" value="chosen">Palawan Island, Philippines</label>
+                    <label class="checkboxbrochure"><input type="checkbox" name="patong" value="chosen">Patong, Thailand</label>
+                    <label class="checkboxbrochure"><input type="checkbox" name="sayulita" value="chosen">Sayulita, Mexico</label>
+                
+                    <label><input type="radio" name="call" value="chosen">Request a call back</label>
+                    <select id="time" name="time">
+                        <option value="none">--Please Select a Time Frame--</option>
+                        <option value="asap">As Soon As Possible</option>
+                        <option value="1hour">In 1 Hour</option>
+                        <option value="2hours">In 2 Hours</option>
+                    </select>
+
+                    <label><input type="radio" name="comment" value="chosen">Leave a comment</label>
+                    <textarea id="comments" name="comments" rows="4"></textarea>
+                </fieldset>
+            
+                <fieldset>
+                    <legend>How Did You Hear About Us?</legend>
+                    <select id="referral" name="referral">
+                        <option value="none">--Please Select--</option>
+                        <option value="socialmedia">Social Media</option>
+                        <option value="friends">Friends/Family</option>
+                        <option value="searchengine">Search Engine</option>
+                    </select>
+                </fieldset>
+            
+
+                <div class="submit">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+            
+            <div class="contactbar">
+                <div class="conphone">
+                    <h2>Phone</h2>
+                    <p>407-619-5555</p>
+                </div>
+                
+                <div class="conemail">
+                    <h2>Email Address</h2>
+                    <p>contact@cloudnine.com</p>
+                </div>
+            
+                <div class="conaddress">
+                    <h2>Address</h2>
+                    <p>710 Eldorado Ave, Clearwater, FL 33767<br></p>
+                </div>
+            </div>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1319.6921744169192!2d-82.82780522927766!3d27.989166250250747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2f6c93562024d%3A0xdcdc03cd8f4dab6!2s710%20Eldorado%20Ave%2C%20Clearwater%2C%20FL%2033767!5e0!3m2!1sen!2sus!4v1723127182490!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            <!-- Back to Top Link -->
+            <p><a href="#top-of-page">Back to Top</a></p>
+        </main> 
+        
+        <!-- Start of the page footer -->
+        <footer class="mainfooter">
+            <p>&copy; 2024 &bull; Zachary Wunduke &bull; 
+            <a href="mailto:10610768@uvu.edu" class="email">Email Us</a></p>
+        </footer>
+    </body>
+</html>
